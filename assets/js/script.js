@@ -4,13 +4,18 @@ $(window).on('load', function () {
 
 	let questions = [
 		"Question 1: blah blah blah?",
-		"This is question 2?",
-		"is this question 3?"
+		"Question 2: blah blah blah?",
+		"Question 3: blah blah blah?",
+        "Question 4: blah blah blah?",
+        "Question 5: blah blah blah?"
 	];
 
 	let answers = [
-		/*0:*/["answer 1", "answer 2"],
-		/*1:*/["question 2 answer 1", "question 2 answer 2"]
+		/*0:*/["answer 1", "answer 2", "answer 3", "answer 4"]
+		/*1:*/["answer 1", "answer 2", "answer 3", "answer 4"]
+        ["answer 1", "answer 2", "answer 3", "answer 4"]
+        ["answer 1", "answer 2", "answer 3", "answer 4"]
+        ["answer 1", "answer 2", "answer 3", "answer 4"]
 	]
 	//answers[0][0] = "answer 1"
 	//answers[1][1] = "question 2 answer 2"
